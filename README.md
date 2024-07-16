@@ -20,3 +20,15 @@ A web application for students to take programming language exams. Users can reg
    ```bash
    git clone https://github.com/udhavjadhav/exam-center.git
    cd exam-center
+
+2. **Frontend Install Dependencies: **
+    ```bash
+    cd client
+    npm install
+    npm run dev
+    
+3. **Backend Install Dependencies: **
+    ```bash
+    cd server
+    npm install
+    npm run dev
