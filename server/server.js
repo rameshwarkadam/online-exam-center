@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const connectDB = require('./app/config/db'); // Import the DB connection function
 const examRoutes = require('./app/controllers/examController/routes/exam.route');
 const authRoutes = require('./app/controllers/authController/routes/auth.routes');
@@ -7,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(express.json()); // Parse JSON bodies
+app.use(cors(express.json())); // Parse JSON bodies
 
 // Connect to MongoDB
 connectDB();
