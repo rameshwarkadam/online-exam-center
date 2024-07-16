@@ -18,5 +18,5 @@ A web application for students to take programming language exams. Users can reg
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/exam-application.git
-   cd exam-application
+   git clone https://github.com/udhavjadhav/exam-center.git
+   cd exam-center
